@@ -36,7 +36,7 @@ Welcome to the Loan Management System! This application is meticulously designed
 1. Clone the repository from GitHub:
 
    ```bash
-   git clone https://github.com/your-username/loan-management-system.git
+   https://github.com/lakshaylk/MergerWare-Assignment.git
    ```
 
 2. Navigate to the project directory:
@@ -81,4 +81,4 @@ This project is licensed under the MIT License. Feel free to customize this temp
 Feel free to reach out for any questions or feedback:
 
 - Email: lakshay2020@vitbhopal.ac.in
-- GitHub: 
+- GitHub: https://github.com/lakshaylk/MergerWare-Assignment
