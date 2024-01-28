@@ -42,7 +42,7 @@ Welcome to the Loan Management System! This application is meticulously designed
 2. Navigate to the project directory:
 
    ```bash
-   cd loan-management-system
+   cd MergerWare-Assignment
    ```
 
 3. Install dependencies:
