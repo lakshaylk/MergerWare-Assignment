@@ -72,10 +72,6 @@ Welcome to the Loan Management System! This application is meticulously designed
 
 Contributions are welcome! Fork the repository and create a pull request with your proposed changes.
 
-## 📄 License
-
-This project is licensed under the MIT License. Feel free to customize this template according to your specific project details and requirements.
-
 ## 📧 Contact
 
 Feel free to reach out for any questions or feedback:
