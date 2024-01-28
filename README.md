@@ -2,15 +2,6 @@
 
 Welcome to the Loan Management System! This application is meticulously designed to facilitate seamless interactions between borrowers and lenders, with a robust admin interface overseeing all transactions. Users can register using their email addresses, choose from various roles (admin, borrower, lender), request loans, confirm payments, and access a detailed transaction history.
 
-## Table of Contents
-
-- Features
-- Installation
-- Usage
-- Contributing
-- License
-- Contact
-
 ## Features
 
 ### User Registration
