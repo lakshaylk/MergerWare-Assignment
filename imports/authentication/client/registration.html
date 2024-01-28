@@ -1,0 +1,26 @@
+<template name="registration">
+  <div class="container mt-4">
+    <form id="registrationForm">
+        
+        <h1 class="h3 mb-3 fw-normal">Registration</h1>
+    
+        <div class="form-floating">
+          <input type="email" class="form-control" id="email" minlength="5" placeholder="name@example.com" required>
+          <label for="email">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" minlength="6" id="password" placeholder="Password" required>
+          <label for="password">Password</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" minlength="6" id="cpassword" placeholder="Password" required>
+            <label for="cpassword">Confirm Password</label>
+          </div>
+    
+        
+        <button class="w-100 mt-2 btn btn-lg btn-primary" type="submit">Create Account</button>
+      </form>
+      <h6>Already have account, <a href="{{pathFor 'login'}}">login here!</a></h6>
+      <p class="mt-5 mb-3 text-muted">&copy; 2024-2025</p>
+    </div>
+</template>

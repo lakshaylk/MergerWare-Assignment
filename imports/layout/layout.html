@@ -1,0 +1,21 @@
+<template name="layout">
+
+    {{> Template.dynamic template=main}}
+    
+</template>
+
+<template name="dashboardLayout">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="{{pathFor 'dashboard'}}">Dashboard</a>
+          <div class="d-flex">
+            {{#if currentUser}}
+              <button id="logoutBtn" class="btn btn-outline-success">Logout</button>
+            {{/if}}
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          {{> Template.dynamic template=main}}
+      </div>
+</template>

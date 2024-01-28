@@ -1,0 +1,20 @@
+<template name="requestLoan">
+    <h2>Loan Request Form</h2>
+    <form id="loanForm">
+
+        <div class="form-floating">
+            <input type="text" id="name" name="name" class="form-control" required>
+            <label for="name">Full Name:</label>
+        </div>
+        <div class="form-floating">
+            <input type="number" id="loanAmount" name="loanAmount" class="form-control" required>
+            <label for="loanAmount">Loan Amount:</label>
+        </div>
+        <div class="form-floating">
+            <textarea id="loanPurpose" name="loanPurpose" rows="5" class="form-control" required></textarea>
+            <label for="loanPurpose">Loan Purpose:</label>
+        </div>
+
+        <button class="w-100 mt-2 btn btn-lg btn-primary" type="submit">Apply</button>
+    </form>
+</template>
